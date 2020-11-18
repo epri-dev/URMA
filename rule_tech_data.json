@@ -1,0 +1,65 @@
+{
+    "Trojan horse installation": {
+        "technique": "T1106"
+    },
+    "NFS semantics": {
+        "technique": "T1081"
+    },
+    "execCode implies file access": {
+        "technique": "T1212"
+    },
+    "remote exploit of a server program": {
+        "technique": "T1035"
+    },
+    "multi-hop access": {
+        "technique": "T1051"
+    },
+    "direct network access": {
+        "technique": "T1133"
+    },
+    "NFS shell": {
+        "technique": "T1212"
+    },
+    "Insider threat": {
+        "technique": "T1072"
+    },
+    "When a principal is compromised any machine he has an account on will also be compromised": {
+        "technique": "T1204"
+    },
+    "local exploit": {
+        "technique": "T1068"
+    },
+    "remote exploit for a client program": {
+        "technique": "T1160"
+    },
+    "execution at any level if root execution": {
+        "technique": "T1196"
+    },
+    "direct on-host access": {
+        "technique": "T1190"
+    },
+    "Access a host through executing code on the machine": {
+        "technique": "T1080"
+    },
+    "Access a host through a log-in service": {
+        "technique": "T1037"
+    },
+    "password sniffing": {
+        "technique": "T1018"
+    },
+    "incompetent user": {
+        "technique": "T1016"
+    },
+    "Browsing a malicious website": {
+        "technique": "T1094"
+    },
+    "Browsing a compromised website": {
+        "technique": "T1483"
+    },
+    "A browser can potentially access malicious input": {
+        "technique": "T1187"
+    },
+    "A remote client vulnerability can potentially access malicious input from a host used by careless user": {
+        "technique": "T1208"
+    }
+}

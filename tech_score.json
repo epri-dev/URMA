@@ -1,0 +1,5371 @@
+{
+    "T1531": {
+        "Tactic": [
+            "impact"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator",
+            "root",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "Windows event logs",
+            "Process command-line parameters",
+            "Process monitoring"
+        ],
+        "name": "Account Access Removal",
+        "tech_score": 0.2777777777777778
+    },
+    "T1506": {
+        "Tactic": [
+            "defense-evasion",
+            "lateral-movement"
+        ],
+        "Platform": [
+            "Office 365",
+            "SaaS"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Authentication logs",
+            "Office 365 account logs"
+        ],
+        "name": "Web Session Cookie",
+        "tech_score": 0.2777777777777778
+    },
+    "T1539": {
+        "Tactic": [
+            "credential-access"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows",
+            "Office 365",
+            "SaaS"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "API monitoring"
+        ],
+        "name": "Steal Web Session Cookie",
+        "tech_score": 0.046296296296296294
+    },
+    "T1529": {
+        "Tactic": [
+            "impact"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator",
+            "root",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "Windows event logs",
+            "Process command-line parameters",
+            "Process monitoring"
+        ],
+        "name": "System Shutdown/Reboot",
+        "tech_score": 0.27808315237061165
+    },
+    "T1519": {
+        "Tactic": [
+            "persistence",
+            "privilege-escalation"
+        ],
+        "Platform": [
+            "macOS"
+        ],
+        "Permissions Required": [
+            "Administrator"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "API monitoring"
+        ],
+        "name": "Emond",
+        "tech_score": 0.037037037037037035
+    },
+    "T1518": {
+        "Tactic": [
+            "discovery"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator"
+        ],
+        "Data Sources": [
+            "Process command-line parameters",
+            "Process monitoring",
+            "File monitoring"
+        ],
+        "name": "Software Discovery",
+        "tech_score": 0.08333333333333333
+    },
+    "T1534": {
+        "Tactic": [
+            "lateral-movement"
+        ],
+        "Platform": [
+            "Windows",
+            "macOS",
+            "Linux",
+            "Office 365",
+            "SaaS"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "SSL/TLS inspection",
+            "DNS records",
+            "Anti-virus",
+            "Web proxy",
+            "File monitoring",
+            "Mail server",
+            "Office 365 trace logs"
+        ],
+        "name": "Internal Spearphishing",
+        "tech_score": 0.046296296296296294
+    },
+    "T1528": {
+        "Tactic": [
+            "credential-access"
+        ],
+        "Platform": [
+            "SaaS",
+            "Office 365",
+            "Azure AD"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Azure activity logs",
+            "OAuth audit logs"
+        ],
+        "name": "Steal Application Access Token",
+        "tech_score": 0.027777777777777776
+    },
+    "T1522": {
+        "Tactic": [
+            "credential-access"
+        ],
+        "Platform": [
+            "AWS",
+            "GCP",
+            "Azure"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Azure activity logs",
+            "AWS CloudTrail logs",
+            "Authentication logs"
+        ],
+        "name": "Cloud Instance Metadata API",
+        "tech_score": 0.027777777777777776
+    },
+    "T1536": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "AWS",
+            "GCP",
+            "Azure"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator"
+        ],
+        "Data Sources": [
+            "Azure OS logs",
+            "AWS CloudTrail logs",
+            "Azure activity logs",
+            "Stackdriver logs",
+            "AWS OS logs"
+        ],
+        "name": "Revert Cloud Instance",
+        "tech_score": 0.08333333333333333
+    },
+    "T1535": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "AWS",
+            "GCP",
+            "Azure"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Stackdriver logs",
+            "Azure activity logs",
+            "AWS CloudTrail logs"
+        ],
+        "name": "Unused/Unsupported Cloud Regions",
+        "tech_score": 0.027777777777777776
+    },
+    "T1525": {
+        "Tactic": [
+            "persistence"
+        ],
+        "Platform": [
+            "GCP",
+            "Azure",
+            "AWS"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [],
+        "name": "Implant Container Image",
+        "tech_score": 0.027777777777777776
+    },
+    "T1538": {
+        "Tactic": [
+            "discovery"
+        ],
+        "Platform": [
+            "AWS",
+            "GCP",
+            "Azure",
+            "Azure AD",
+            "Office 365"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Office 365 audit logs",
+            "Azure activity logs",
+            "Stackdriver logs",
+            "AWS CloudTrail logs"
+        ],
+        "name": "Cloud Service Dashboard",
+        "tech_score": 0.046296296296296294
+    },
+    "T1530": {
+        "Tactic": [
+            "collection"
+        ],
+        "Platform": [
+            "AWS",
+            "GCP",
+            "Azure"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Stackdriver logs",
+            "Azure activity logs",
+            "AWS CloudTrail logs"
+        ],
+        "name": "Data from Cloud Storage Object",
+        "tech_score": 0.027777777777777776
+    },
+    "T1537": {
+        "Tactic": [
+            "exfiltration"
+        ],
+        "Platform": [
+            "Azure",
+            "AWS",
+            "GCP"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Stackdriver logs",
+            "Azure activity logs",
+            "AWS CloudTrail logs"
+        ],
+        "name": "Transfer Data to Cloud Account",
+        "tech_score": 0.027777777777777776
+    },
+    "T1526": {
+        "Tactic": [
+            "discovery"
+        ],
+        "Platform": [
+            "AWS",
+            "GCP",
+            "Azure",
+            "Azure AD",
+            "Office 365",
+            "SaaS"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Azure activity logs",
+            "Stackdriver logs",
+            "AWS CloudTrail logs"
+        ],
+        "name": "Cloud Service Discovery",
+        "tech_score": 0.05555555555555555
+    },
+    "T1527": {
+        "Tactic": [
+            "defense-evasion",
+            "lateral-movement"
+        ],
+        "Platform": [
+            "SaaS",
+            "Office 365"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "OAuth audit logs",
+            "Office 365 account logs"
+        ],
+        "name": "Application Access Token",
+        "tech_score": 0.037037037037037035
+    },
+    "T1514": {
+        "Tactic": [
+            "privilege-escalation"
+        ],
+        "Platform": [
+            "macOS"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "User"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring",
+            "API monitoring"
+        ],
+        "name": "Elevated Execution with Prompt",
+        "tech_score": 0.027777777777777776
+    },
+    "T1505": {
+        "Tactic": [
+            "persistence"
+        ],
+        "Platform": [
+            "Windows",
+            "Linux"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "SYSTEM",
+            "root"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Application logs"
+        ],
+        "name": "Server Software Component",
+        "tech_score": 0.16666666666666666
+    },
+    "T1503": {
+        "Tactic": [
+            "credential-access"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Process monitoring",
+            "PowerShell logs",
+            "File monitoring",
+            "API monitoring"
+        ],
+        "name": "Credentials from Web Browsers",
+        "tech_score": 0.030717446990402734
+    },
+    "T1504": {
+        "Tactic": [
+            "persistence",
+            "privilege-escalation"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator"
+        ],
+        "Data Sources": [
+            "Process monitoring",
+            "File monitoring",
+            "PowerShell logs"
+        ],
+        "name": "PowerShell Profile",
+        "tech_score": 0.05555555555555555
+    },
+    "T1502": {
+        "Tactic": [
+            "defense-evasion",
+            "privilege-escalation"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator"
+        ],
+        "Data Sources": [
+            "Windows event logs",
+            "Process monitoring",
+            "API monitoring"
+        ],
+        "name": "Parent PID Spoofing",
+        "tech_score": 0.05555555555555555
+    },
+    "T1500": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Process command-line parameters",
+            "Process monitoring",
+            "File monitoring"
+        ],
+        "name": "Compile After Delivery",
+        "tech_score": 0.02781170828809265
+    },
+    "T1501": {
+        "Tactic": [
+            "persistence"
+        ],
+        "Platform": [
+            "Linux"
+        ],
+        "Permissions Required": [
+            "root",
+            "User"
+        ],
+        "Data Sources": [
+            "Process command-line parameters",
+            "Process monitoring",
+            "File monitoring"
+        ],
+        "name": "Systemd Service",
+        "tech_score": 0.037037037037037035
+    },
+    "T1499": {
+        "Tactic": [
+            "impact"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "SSL/TLS inspection",
+            "Web logs",
+            "Web application firewall logs",
+            "Network intrusion detection system",
+            "Network protocol analysis",
+            "Network device logs",
+            "Netflow/Enclave netflow"
+        ],
+        "name": "Endpoint Denial of Service",
+        "tech_score": 0.037037037037037035
+    },
+    "T1497": {
+        "Tactic": [
+            "defense-evasion",
+            "discovery"
+        ],
+        "Platform": [
+            "Windows",
+            "macOS"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Virtualization/Sandbox Evasion",
+        "tech_score": 0.03904478723359999
+    },
+    "T1498": {
+        "Tactic": [
+            "impact"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Sensor health and status",
+            "Network protocol analysis",
+            "Netflow/Enclave netflow",
+            "Network intrusion detection system",
+            "Network device logs"
+        ],
+        "name": "Network Denial of Service",
+        "tech_score": 0.037037037037037035
+    },
+    "T1496": {
+        "Tactic": [
+            "impact"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows",
+            "AWS",
+            "GCP",
+            "Azure"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator"
+        ],
+        "Data Sources": [
+            "Azure activity logs",
+            "Stackdriver logs",
+            "AWS CloudTrail logs",
+            "Process use of network",
+            "Process monitoring",
+            "Network protocol analysis",
+            "Network device logs"
+        ],
+        "name": "Resource Hijacking",
+        "tech_score": 0.16666666666666666
+    },
+    "T1495": {
+        "Tactic": [
+            "impact"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "root",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "BIOS",
+            "Component firmware"
+        ],
+        "name": "Firmware Corruption",
+        "tech_score": 0.25
+    },
+    "T1494": {
+        "Tactic": [
+            "impact"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator",
+            "root",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring"
+        ],
+        "name": "Runtime Data Manipulation",
+        "tech_score": 0.2777777777777778
+    },
+    "T1493": {
+        "Tactic": [
+            "impact"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator",
+            "root",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "Packet capture",
+            "Network protocol analysis"
+        ],
+        "name": "Transmitted Data Manipulation",
+        "tech_score": 0.27781170828809265
+    },
+    "T1492": {
+        "Tactic": [
+            "impact"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator",
+            "root",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "Application logs",
+            "File monitoring"
+        ],
+        "name": "Stored Data Manipulation",
+        "tech_score": 0.2777777777777778
+    },
+    "T1491": {
+        "Tactic": [
+            "impact"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Packet capture",
+            "Web application firewall logs",
+            "Web logs",
+            "Packet capture"
+        ],
+        "name": "Defacement",
+        "tech_score": 0.2777777777777778
+    },
+    "T1490": {
+        "Tactic": [
+            "impact"
+        ],
+        "Platform": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "root",
+            "SYSTEM",
+            "User"
+        ],
+        "Data Sources": [
+            "Windows Registry",
+            "Services",
+            "Windows event logs",
+            "Process command-line parameters",
+            "Process monitoring"
+        ],
+        "name": "Inhibit System Recovery",
+        "tech_score": 0.2777777777777778
+    },
+    "T1489": {
+        "Tactic": [
+            "impact"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "SYSTEM",
+            "User"
+        ],
+        "Data Sources": [
+            "Process command-line parameters",
+            "Process monitoring",
+            "Windows Registry",
+            "API monitoring"
+        ],
+        "name": "Service Stop",
+        "tech_score": 0.06491660634575944
+    },
+    "T1488": {
+        "Tactic": [
+            "impact"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator",
+            "root",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "Kernel drivers",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Disk Content Wipe",
+        "tech_score": 0.2779913059892421
+    },
+    "T1487": {
+        "Tactic": [
+            "impact"
+        ],
+        "Platform": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "root",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "Kernel drivers",
+            "MBR"
+        ],
+        "name": "Disk Structure Wipe",
+        "tech_score": 0.2507423761653375
+    },
+    "T1486": {
+        "Tactic": [
+            "impact"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator",
+            "root",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "Kernel drivers",
+            "File monitoring",
+            "Process command-line parameters",
+            "Process monitoring"
+        ],
+        "name": "Data Encrypted for Impact",
+        "tech_score": 0.27869390155627943
+    },
+    "T1485": {
+        "Tactic": [
+            "impact"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator",
+            "root",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process command-line parameters",
+            "Process monitoring"
+        ],
+        "name": "Data Destruction",
+        "tech_score": 0.27903905674741347
+    },
+    "T1484": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "User"
+        ],
+        "Data Sources": [
+            "Windows event logs"
+        ],
+        "name": "Group Policy Modification",
+        "tech_score": 0.027777777777777776
+    },
+    "T1483": {
+        "Tactic": [
+            "command-and-control"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Process use of network",
+            "Packet capture",
+            "Network device logs",
+            "Netflow/Enclave netflow",
+            "DNS records"
+        ],
+        "name": "Domain Generation Algorithms",
+        "tech_score": 0.027981360839667027
+    },
+    "T1482": {
+        "Tactic": [
+            "discovery"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "PowerShell logs",
+            "API monitoring",
+            "Process command-line parameters",
+            "Process monitoring"
+        ],
+        "name": "Domain Trust Discovery",
+        "tech_score": 0.009259259259259259
+    },
+    "T1480": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Process monitoring"
+        ],
+        "name": "Execution Guardrails",
+        "tech_score": 0.027777777777777776
+    },
+    "T1222": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Linux",
+            "Windows",
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator",
+            "SYSTEM",
+            "root"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring",
+            "Process command-line parameters",
+            "Windows event logs"
+        ],
+        "name": "File and Directory Permissions Modification",
+        "tech_score": 0.27787956930872243
+    },
+    "T1223": {
+        "Tactic": [
+            "defense-evasion",
+            "execution"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Compiled HTML File",
+        "tech_score": 0.018688171070092893
+    },
+    "T1221": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Anti-virus",
+            "Email gateway",
+            "Network intrusion detection system",
+            "Web logs"
+        ],
+        "name": "Template Injection",
+        "tech_score": 0.009259259259259259
+    },
+    "T1220": {
+        "Tactic": [
+            "defense-evasion",
+            "execution"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Process monitoring",
+            "Process command-line parameters",
+            "Process use of network",
+            "DLL monitoring"
+        ],
+        "name": "XSL Script Processing",
+        "tech_score": 0.018552449028833393
+    },
+    "T1217": {
+        "Tactic": [
+            "discovery"
+        ],
+        "Platform": [
+            "Linux",
+            "Windows",
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "API monitoring",
+            "File monitoring",
+            "Process command-line parameters",
+            "Process monitoring"
+        ],
+        "name": "Browser Bookmark Discovery",
+        "tech_score": 0.027777777777777776
+    },
+    "T1213": {
+        "Tactic": [
+            "collection"
+        ],
+        "Platform": [
+            "Linux",
+            "Windows",
+            "macOS",
+            "SaaS",
+            "AWS",
+            "GCP",
+            "Azure"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Azure activity logs",
+            "AWS CloudTrail logs",
+            "Stackdriver logs",
+            "OAuth audit logs",
+            "Application logs",
+            "Authentication logs",
+            "Data loss prevention",
+            "Third-party application logs"
+        ],
+        "name": "Data from Information Repositories",
+        "tech_score": 0.06517401021711366
+    },
+    "T1190": {
+        "Tactic": [
+            "initial-access"
+        ],
+        "Platform": [
+            "Linux",
+            "Windows",
+            "macOS",
+            "AWS",
+            "GCP",
+            "Azure"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Azure activity logs",
+            "AWS CloudTrail logs",
+            "Stackdriver logs",
+            "Packet capture",
+            "Web logs",
+            "Web application firewall logs",
+            "Application logs"
+        ],
+        "name": "Exploit Public-Facing Application",
+        "tech_score": 0.06589240102171136
+    },
+    "T1210": {
+        "Tactic": [
+            "lateral-movement"
+        ],
+        "Platform": [
+            "Linux",
+            "Windows",
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Windows Error Reporting",
+            "Process monitoring",
+            "File monitoring"
+        ],
+        "name": "Exploitation of Remote Services",
+        "tech_score": 0.028767612664894478
+    },
+    "T1200": {
+        "Tactic": [
+            "initial-access"
+        ],
+        "Platform": [
+            "Windows",
+            "Linux",
+            "macOS"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Asset management",
+            "Data loss prevention"
+        ],
+        "name": "Hardware Additions",
+        "tech_score": 0.027777777777777776
+    },
+    "T1202": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring",
+            "Process command-line parameters",
+            "Windows event logs"
+        ],
+        "name": "Indirect Command Execution",
+        "tech_score": 0.009259259259259259
+    },
+    "T1194": {
+        "Tactic": [
+            "initial-access"
+        ],
+        "Platform": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "SSL/TLS inspection",
+            "Anti-virus",
+            "Web proxy"
+        ],
+        "name": "Spearphishing via Service",
+        "tech_score": 0.009259259259259259
+    },
+    "T1209": {
+        "Tactic": [
+            "persistence"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "API monitoring",
+            "Binary file metadata",
+            "DLL monitoring",
+            "File monitoring",
+            "Loaded DLLs",
+            "Process monitoring"
+        ],
+        "name": "Time Providers",
+        "tech_score": 0.05555555555555555
+    },
+    "T1199": {
+        "Tactic": [
+            "initial-access"
+        ],
+        "Platform": [
+            "Linux",
+            "Windows",
+            "macOS",
+            "AWS",
+            "GCP",
+            "Azure",
+            "SaaS"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Azure activity logs",
+            "Stackdriver logs",
+            "AWS CloudTrail logs",
+            "Application logs",
+            "Authentication logs",
+            "Third-party application logs"
+        ],
+        "name": "Trusted Relationship",
+        "tech_score": 0.05555555555555555
+    },
+    "T1191": {
+        "Tactic": [
+            "defense-evasion",
+            "execution"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Process monitoring",
+            "Process command-line parameters",
+            "Process use of network",
+            "Windows event logs"
+        ],
+        "name": "CMSTP",
+        "tech_score": 0.018518518518518517
+    },
+    "T1207": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator"
+        ],
+        "Data Sources": [
+            "API monitoring",
+            "Authentication logs",
+            "Network protocol analysis",
+            "Packet capture"
+        ],
+        "name": "DCShadow",
+        "tech_score": 0.018518518518518517
+    },
+    "T1189": {
+        "Tactic": [
+            "initial-access"
+        ],
+        "Platform": [
+            "Windows",
+            "Linux",
+            "macOS",
+            "SaaS"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Packet capture",
+            "Network device logs",
+            "Process use of network",
+            "Web proxy",
+            "Network intrusion detection system",
+            "SSL/TLS inspection"
+        ],
+        "name": "Drive-by Compromise",
+        "tech_score": 0.03798709132585354
+    },
+    "T1211": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Linux",
+            "Windows",
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Windows Error Reporting",
+            "Process monitoring",
+            "File monitoring"
+        ],
+        "name": "Exploitation for Defense Evasion",
+        "tech_score": 0.027777777777777776
+    },
+    "T1218": {
+        "Tactic": [
+            "defense-evasion",
+            "execution"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Signed Binary Proxy Execution",
+        "tech_score": 0.018620310049463143
+    },
+    "T1193": {
+        "Tactic": [
+            "initial-access"
+        ],
+        "Platform": [
+            "Windows",
+            "macOS",
+            "Linux"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "File monitoring",
+            "Packet capture",
+            "Network intrusion detection system",
+            "Detonation chamber",
+            "Email gateway",
+            "Mail server"
+        ],
+        "name": "Spearphishing Attachment",
+        "tech_score": 0.02228480516346966
+    },
+    "T1195": {
+        "Tactic": [
+            "initial-access"
+        ],
+        "Platform": [
+            "Linux",
+            "Windows",
+            "macOS"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Web proxy",
+            "File monitoring"
+        ],
+        "name": "Supply Chain Compromise",
+        "tech_score": 0.01872210158040777
+    },
+    "T1204": {
+        "Tactic": [
+            "execution"
+        ],
+        "Platform": [
+            "Linux",
+            "Windows",
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Anti-virus",
+            "Process command-line parameters",
+            "Process monitoring"
+        ],
+        "name": "User Execution",
+        "tech_score": 0.03656577994933044
+    },
+    "T1196": {
+        "Tactic": [
+            "defense-evasion",
+            "execution"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "API monitoring",
+            "Binary file metadata",
+            "DLL monitoring",
+            "Windows Registry",
+            "Windows event logs",
+            "Process command-line parameters",
+            "Process monitoring"
+        ],
+        "name": "Control Panel Items",
+        "tech_score": 0.12962962962962962
+    },
+    "T1212": {
+        "Tactic": [
+            "credential-access"
+        ],
+        "Platform": [
+            "Linux",
+            "Windows",
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Authentication logs",
+            "Windows Error Reporting",
+            "Process monitoring"
+        ],
+        "name": "Exploitation for Credential Access",
+        "tech_score": 0.027777777777777776
+    },
+    "T1215": {
+        "Tactic": [
+            "persistence"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS"
+        ],
+        "Permissions Required": [
+            "root"
+        ],
+        "Data Sources": [
+            "System calls",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Kernel Modules and Extensions",
+        "tech_score": 0.05555555555555555
+    },
+    "T1197": {
+        "Tactic": [
+            "defense-evasion",
+            "persistence"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "API monitoring",
+            "Packet capture",
+            "Windows event logs"
+        ],
+        "name": "BITS Jobs",
+        "tech_score": 0.13048374247548683
+    },
+    "T1214": {
+        "Tactic": [
+            "credential-access"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator"
+        ],
+        "Data Sources": [
+            "Windows Registry",
+            "Process command-line parameters",
+            "Process monitoring"
+        ],
+        "name": "Credentials in Registry",
+        "tech_score": 0.0281709036903915
+    },
+    "T1216": {
+        "Tactic": [
+            "defense-evasion",
+            "execution"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Signed Script Proxy Execution",
+        "tech_score": 0.018518518518518517
+    },
+    "T1192": {
+        "Tactic": [
+            "initial-access"
+        ],
+        "Platform": [
+            "Windows",
+            "macOS",
+            "Linux",
+            "Office 365",
+            "SaaS"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Packet capture",
+            "Web proxy",
+            "Email gateway",
+            "Detonation chamber",
+            "SSL/TLS inspection",
+            "DNS records",
+            "Mail server"
+        ],
+        "name": "Spearphishing Link",
+        "tech_score": 0.01919712872481602
+    },
+    "T1198": {
+        "Tactic": [
+            "defense-evasion",
+            "persistence"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "API monitoring",
+            "Application logs",
+            "DLL monitoring",
+            "Loaded DLLs",
+            "Process monitoring",
+            "Windows Registry",
+            "Windows event logs"
+        ],
+        "name": "SIP and Trust Provider Hijacking",
+        "tech_score": 0.1111111111111111
+    },
+    "T1206": {
+        "Tactic": [
+            "privilege-escalation"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Sudo Caching",
+        "tech_score": 0.018518518518518517
+    },
+    "T1203": {
+        "Tactic": [
+            "execution"
+        ],
+        "Platform": [
+            "Linux",
+            "Windows",
+            "macOS"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Anti-virus",
+            "System calls",
+            "Process monitoring"
+        ],
+        "name": "Exploitation for Client Execution",
+        "tech_score": 0.02340451200386054
+    },
+    "T1208": {
+        "Tactic": [
+            "credential-access"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Windows event logs"
+        ],
+        "name": "Kerberoasting",
+        "tech_score": 0.009259259259259259
+    },
+    "T1201": {
+        "Tactic": [
+            "discovery"
+        ],
+        "Platform": [
+            "Windows",
+            "Linux",
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Process command-line parameters",
+            "Process monitoring"
+        ],
+        "name": "Password Policy Discovery",
+        "tech_score": 0.0281709036903915
+    },
+    "T1205": {
+        "Tactic": [
+            "defense-evasion",
+            "persistence",
+            "command-and-control"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Packet capture",
+            "Netflow/Enclave netflow"
+        ],
+        "name": "Port Knocking",
+        "tech_score": 0.05555555555555555
+    },
+    "T1219": {
+        "Tactic": [
+            "command-and-control"
+        ],
+        "Platform": [
+            "Linux",
+            "Windows",
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Network intrusion detection system",
+            "Network protocol analysis",
+            "Process use of network",
+            "Process monitoring"
+        ],
+        "name": "Remote Access Tools",
+        "tech_score": 0.028117082880926528
+    },
+    "T1172": {
+        "Tactic": [
+            "command-and-control"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "SSL/TLS inspection",
+            "Packet capture"
+        ],
+        "name": "Domain Fronting",
+        "tech_score": 0.027957375478927203
+    },
+    "T1173": {
+        "Tactic": [
+            "execution"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "API monitoring",
+            "DLL monitoring",
+            "Process monitoring",
+            "Windows Registry",
+            "Windows event logs"
+        ],
+        "name": "Dynamic Data Exchange",
+        "tech_score": 0.010345035589335264
+    },
+    "T1187": {
+        "Tactic": [
+            "credential-access"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Network protocol analysis",
+            "Network device logs",
+            "Process use of network"
+        ],
+        "name": "Forced Authentication",
+        "tech_score": 0.009259259259259259
+    },
+    "T1188": {
+        "Tactic": [
+            "command-and-control"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Network protocol analysis",
+            "Netflow/Enclave netflow"
+        ],
+        "name": "Multi-hop Proxy",
+        "tech_score": 0.01002562078533661
+    },
+    "T1174": {
+        "Tactic": [
+            "credential-access"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "DLL monitoring",
+            "Process monitoring",
+            "Windows Registry"
+        ],
+        "name": "Password Filter DLL",
+        "tech_score": 0.05555555555555555
+    },
+    "T1175": {
+        "Tactic": [
+            "lateral-movement",
+            "execution"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "SYSTEM",
+            "User"
+        ],
+        "Data Sources": [
+            "PowerShell logs",
+            "API monitoring",
+            "Authentication logs",
+            "DLL monitoring",
+            "Packet capture",
+            "Process monitoring",
+            "Windows Registry",
+            "Windows event logs"
+        ],
+        "name": "Component Object Model and Distributed COM",
+        "tech_score": 0.1300566860525582
+    },
+    "T1170": {
+        "Tactic": [
+            "defense-evasion",
+            "execution"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Mshta",
+        "tech_score": 0.01977979748815422
+    },
+    "T1179": {
+        "Tactic": [
+            "persistence",
+            "privilege-escalation",
+            "credential-access"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "API monitoring",
+            "Binary file metadata",
+            "DLL monitoring",
+            "Loaded DLLs",
+            "Process monitoring",
+            "Windows event logs"
+        ],
+        "name": "Hooking",
+        "tech_score": 0.16711770845033508
+    },
+    "T1184": {
+        "Tactic": [
+            "lateral-movement"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User",
+            "root"
+        ],
+        "Data Sources": [
+            "Authentication logs"
+        ],
+        "name": "SSH Hijacking",
+        "tech_score": 0.07407407407407407
+    },
+    "T1181": {
+        "Tactic": [
+            "defense-evasion",
+            "privilege-escalation"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "API monitoring",
+            "Process monitoring"
+        ],
+        "name": "Extra Window Memory Injection",
+        "tech_score": 0.1111111111111111
+    },
+    "T1177": {
+        "Tactic": [
+            "execution",
+            "persistence"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "API monitoring",
+            "DLL monitoring",
+            "File monitoring",
+            "Kernel drivers",
+            "Loaded DLLs",
+            "Process monitoring"
+        ],
+        "name": "LSASS Driver",
+        "tech_score": 0.1111111111111111
+    },
+    "T1182": {
+        "Tactic": [
+            "persistence",
+            "privilege-escalation"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "Loaded DLLs",
+            "Process monitoring",
+            "Windows Registry"
+        ],
+        "name": "AppCert DLLs",
+        "tech_score": 0.11114504162142598
+    },
+    "T1176": {
+        "Tactic": [
+            "persistence"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Network protocol analysis",
+            "Packet capture",
+            "System calls",
+            "Process use of network",
+            "Process monitoring",
+            "Browser extensions"
+        ],
+        "name": "Browser Extensions",
+        "tech_score": 0.027845638798407527
+    },
+    "T1185": {
+        "Tactic": [
+            "collection"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "Authentication logs",
+            "Packet capture",
+            "Process monitoring",
+            "API monitoring"
+        ],
+        "name": "Man in the Browser",
+        "tech_score": 0.05555555555555555
+    },
+    "T1180": {
+        "Tactic": [
+            "persistence"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Process monitoring",
+            "Process command-line parameters",
+            "Windows Registry",
+            "File monitoring"
+        ],
+        "name": "Screensaver",
+        "tech_score": 0.009259259259259259
+    },
+    "T1183": {
+        "Tactic": [
+            "privilege-escalation",
+            "persistence",
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "Process monitoring",
+            "Windows Registry",
+            "Windows event logs"
+        ],
+        "name": "Image File Execution Options Injection",
+        "tech_score": 0.16666666666666666
+    },
+    "T1171": {
+        "Tactic": [
+            "credential-access"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Windows event logs",
+            "Windows Registry",
+            "Packet capture",
+            "Netflow/Enclave netflow"
+        ],
+        "name": "LLMNR/NBT-NS Poisoning and Relay",
+        "tech_score": 0.009259259259259259
+    },
+    "T1186": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "SYSTEM",
+            "User"
+        ],
+        "Data Sources": [
+            "API monitoring",
+            "Process monitoring"
+        ],
+        "name": "Process Doppelg\u00e4nging",
+        "tech_score": 0.06481481481481481
+    },
+    "T1178": {
+        "Tactic": [
+            "privilege-escalation"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "API monitoring",
+            "Authentication logs",
+            "Windows event logs"
+        ],
+        "name": "SID-History Injection",
+        "tech_score": 0.05555555555555555
+    },
+    "T1138": {
+        "Tactic": [
+            "persistence",
+            "privilege-escalation"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator"
+        ],
+        "Data Sources": [
+            "Loaded DLLs",
+            "System calls",
+            "Windows Registry",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Application Shimming",
+        "tech_score": 0.037037037037037035
+    },
+    "T1140": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Deobfuscate/Decode Files or Information",
+        "tech_score": 0.03613924353422276
+    },
+    "T1149": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator"
+        ],
+        "Data Sources": [
+            "Binary file metadata",
+            "Malware reverse engineering",
+            "Process monitoring"
+        ],
+        "name": "LC_MAIN Hijacking",
+        "tech_score": 0.027777777777777776
+    },
+    "T1152": {
+        "Tactic": [
+            "defense-evasion",
+            "execution",
+            "persistence"
+        ],
+        "Platform": [
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Launchctl",
+        "tech_score": 0.08333333333333333
+    },
+    "T1150": {
+        "Tactic": [
+            "defense-evasion",
+            "persistence",
+            "privilege-escalation"
+        ],
+        "Platform": [
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Plist Modification",
+        "tech_score": 0.08333333333333333
+    },
+    "T1163": {
+        "Tactic": [
+            "persistence"
+        ],
+        "Platform": [
+            "macOS"
+        ],
+        "Permissions Required": [
+            "root"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring"
+        ],
+        "name": "Rc.common",
+        "tech_score": 0.027777777777777776
+    },
+    "T1166": {
+        "Tactic": [
+            "privilege-escalation",
+            "persistence"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Setuid and Setgid",
+        "tech_score": 0.037037037037037035
+    },
+    "T1157": {
+        "Tactic": [
+            "persistence",
+            "privilege-escalation"
+        ],
+        "Platform": [
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "File monitoring"
+        ],
+        "name": "Dylib Hijacking",
+        "tech_score": 0.018518518518518517
+    },
+    "T1155": {
+        "Tactic": [
+            "execution",
+            "lateral-movement"
+        ],
+        "Platform": [
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "API monitoring",
+            "System calls",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "AppleScript",
+        "tech_score": 0.018518518518518517
+    },
+    "T1136": {
+        "Tactic": [
+            "persistence"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows",
+            "AWS",
+            "GCP",
+            "Azure AD",
+            "Azure",
+            "Office 365"
+        ],
+        "Permissions Required": [
+            "Administrator"
+        ],
+        "Data Sources": [
+            "Office 365 account logs",
+            "Azure activity logs",
+            "AWS CloudTrail logs",
+            "Process monitoring",
+            "Process command-line parameters",
+            "Authentication logs",
+            "Windows event logs"
+        ],
+        "name": "Create Account",
+        "tech_score": 0.15219933407798453
+    },
+    "T1143": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Windows event logs",
+            "PowerShell logs",
+            "Process command-line parameters",
+            "Process monitoring",
+            "File monitoring"
+        ],
+        "name": "Hidden Window",
+        "tech_score": 0.0200453914826879
+    },
+    "T1141": {
+        "Tactic": [
+            "credential-access"
+        ],
+        "Platform": [
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Process monitoring",
+            "Process command-line parameters",
+            "User interface",
+            "PowerShell logs"
+        ],
+        "name": "Input Prompt",
+        "tech_score": 0.018688171070092893
+    },
+    "T1142": {
+        "Tactic": [
+            "credential-access"
+        ],
+        "Platform": [
+            "macOS"
+        ],
+        "Permissions Required": [
+            "Administrator"
+        ],
+        "Data Sources": [
+            "System calls",
+            "Process monitoring"
+        ],
+        "name": "Keychain",
+        "tech_score": 0.018518518518518517
+    },
+    "T1159": {
+        "Tactic": [
+            "persistence"
+        ],
+        "Platform": [
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring"
+        ],
+        "name": "Launch Agent",
+        "tech_score": 0.027777777777777776
+    },
+    "T1135": {
+        "Tactic": [
+            "discovery"
+        ],
+        "Platform": [
+            "macOS",
+            "Windows",
+            "AWS",
+            "GCP",
+            "Azure"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Process monitoring",
+            "Process command-line parameters",
+            "Network protocol analysis",
+            "Process use of network"
+        ],
+        "name": "Network Share Discovery",
+        "tech_score": 0.05197380668605256
+    },
+    "T1148": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Process monitoring",
+            "Authentication logs",
+            "File monitoring",
+            "Environment variable"
+        ],
+        "name": "HISTCONTROL",
+        "tech_score": 0.018518518518518517
+    },
+    "T1161": {
+        "Tactic": [
+            "persistence"
+        ],
+        "Platform": [
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Binary file metadata",
+            "Process monitoring",
+            "Process command-line parameters",
+            "File monitoring"
+        ],
+        "name": "LC_LOAD_DYLIB Addition",
+        "tech_score": 0.009259259259259259
+    },
+    "T1154": {
+        "Tactic": [
+            "execution",
+            "persistence"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Trap",
+        "tech_score": 0.1111111111111111
+    },
+    "T1134": {
+        "Tactic": [
+            "defense-evasion",
+            "privilege-escalation"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator"
+        ],
+        "Data Sources": [
+            "API monitoring",
+            "Access tokens",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Access Token Manipulation",
+        "tech_score": 0.05896206178940931
+    },
+    "T1139": {
+        "Tactic": [
+            "credential-access"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Bash History",
+        "tech_score": 0.018518518518518517
+    },
+    "T1147": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "macOS"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "root"
+        ],
+        "Data Sources": [
+            "Authentication logs",
+            "File monitoring"
+        ],
+        "name": "Hidden Users",
+        "tech_score": 0.046296296296296294
+    },
+    "T1156": {
+        "Tactic": [
+            "persistence"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring",
+            "Process command-line parameters",
+            "Process use of network"
+        ],
+        "name": ".bash_profile and .bashrc",
+        "tech_score": 0.05555555555555555
+    },
+    "T1146": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Authentication logs",
+            "File monitoring"
+        ],
+        "name": "Clear Command History",
+        "tech_score": 0.018518518518518517
+    },
+    "T1160": {
+        "Tactic": [
+            "persistence",
+            "privilege-escalation"
+        ],
+        "Platform": [
+            "macOS"
+        ],
+        "Permissions Required": [
+            "Administrator"
+        ],
+        "Data Sources": [
+            "Process monitoring",
+            "File monitoring"
+        ],
+        "name": "Launch Daemon",
+        "tech_score": 0.037037037037037035
+    },
+    "T1145": {
+        "Tactic": [
+            "credential-access"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "File monitoring"
+        ],
+        "name": "Private Keys",
+        "tech_score": 0.027777777777777776
+    },
+    "T1165": {
+        "Tactic": [
+            "persistence",
+            "privilege-escalation"
+        ],
+        "Platform": [
+            "macOS"
+        ],
+        "Permissions Required": [
+            "Administrator"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring"
+        ],
+        "name": "Startup Items",
+        "tech_score": 0.037037037037037035
+    },
+    "T1162": {
+        "Tactic": [
+            "persistence"
+        ],
+        "Platform": [
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "API monitoring"
+        ],
+        "name": "Login Item",
+        "tech_score": 0.009259259259259259
+    },
+    "T1137": {
+        "Tactic": [
+            "persistence"
+        ],
+        "Platform": [
+            "Windows",
+            "Office 365"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator"
+        ],
+        "Data Sources": [
+            "Process monitoring",
+            "Process command-line parameters",
+            "Windows Registry",
+            "File monitoring"
+        ],
+        "name": "Office Application Startup",
+        "tech_score": 0.055914750957854406
+    },
+    "T1151": {
+        "Tactic": [
+            "defense-evasion",
+            "execution"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring"
+        ],
+        "name": "Space after Filename",
+        "tech_score": 0.037037037037037035
+    },
+    "T1144": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Gatekeeper Bypass",
+        "tech_score": 0.027777777777777776
+    },
+    "T1158": {
+        "Tactic": [
+            "defense-evasion",
+            "persistence"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Hidden Files and Directories",
+        "tech_score": 0.05718422005066956
+    },
+    "T1168": {
+        "Tactic": [
+            "persistence",
+            "execution"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "User",
+            "root"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring"
+        ],
+        "name": "Local Job Scheduling",
+        "tech_score": 0.2222222222222222
+    },
+    "T1164": {
+        "Tactic": [
+            "persistence"
+        ],
+        "Platform": [
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "File monitoring"
+        ],
+        "name": "Re-opened Applications",
+        "tech_score": 0.009259259259259259
+    },
+    "T1167": {
+        "Tactic": [
+            "credential-access"
+        ],
+        "Platform": [
+            "macOS"
+        ],
+        "Permissions Required": [
+            "root"
+        ],
+        "Data Sources": [
+            "Process monitoring"
+        ],
+        "name": "Securityd Memory",
+        "tech_score": 0.027777777777777776
+    },
+    "T1153": {
+        "Tactic": [
+            "execution"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Process monitoring",
+            "File monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Source",
+        "tech_score": 0.018518518518518517
+    },
+    "T1169": {
+        "Tactic": [
+            "privilege-escalation"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "File monitoring"
+        ],
+        "name": "Sudo",
+        "tech_score": 0.018518518518518517
+    },
+    "T1133": {
+        "Tactic": [
+            "persistence",
+            "initial-access"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Authentication logs"
+        ],
+        "name": "External Remote Services",
+        "tech_score": 0.01885782362166727
+    },
+    "T1132": {
+        "Tactic": [
+            "command-and-control"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Packet capture",
+            "Process use of network",
+            "Process monitoring",
+            "Network protocol analysis"
+        ],
+        "name": "Data Encoding",
+        "tech_score": 0.0338852696344553
+    },
+    "T1131": {
+        "Tactic": [
+            "persistence"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator"
+        ],
+        "Data Sources": [
+            "DLL monitoring",
+            "Windows Registry",
+            "Loaded DLLs"
+        ],
+        "name": "Authentication Package",
+        "tech_score": 0.018518518518518517
+    },
+    "T1130": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Linux",
+            "Windows",
+            "macOS"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "User"
+        ],
+        "Data Sources": [
+            "SSL/TLS inspection",
+            "Digital certificate logs"
+        ],
+        "name": "Install Root Certificate",
+        "tech_score": 0.08333333333333333
+    },
+    "T1129": {
+        "Tactic": [
+            "execution"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "API monitoring",
+            "DLL monitoring",
+            "File monitoring",
+            "Process monitoring"
+        ],
+        "name": "Execution through Module Load",
+        "tech_score": 0.009259259259259259
+    },
+    "T1128": {
+        "Tactic": [
+            "persistence"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "DLL monitoring",
+            "Windows Registry",
+            "Process monitoring"
+        ],
+        "name": "Netsh Helper DLL",
+        "tech_score": 0.05555555555555555
+    },
+    "T1127": {
+        "Tactic": [
+            "defense-evasion",
+            "execution"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Process monitoring"
+        ],
+        "name": "Trusted Developer Utilities",
+        "tech_score": 0.018518518518518517
+    },
+    "T1126": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "User"
+        ],
+        "Data Sources": [
+            "Process monitoring",
+            "Process command-line parameters",
+            "Packet capture",
+            "Authentication logs"
+        ],
+        "name": "Network Share Connection Removal",
+        "tech_score": 0.027991305989242078
+    },
+    "T1125": {
+        "Tactic": [
+            "collection"
+        ],
+        "Platform": [
+            "Windows",
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Process monitoring",
+            "File monitoring",
+            "API monitoring"
+        ],
+        "name": "Video Capture",
+        "tech_score": 0.020973215437160173
+    },
+    "T1124": {
+        "Tactic": [
+            "discovery"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Process monitoring",
+            "Process command-line parameters",
+            "API monitoring"
+        ],
+        "name": "System Time Discovery",
+        "tech_score": 0.013234979054084972
+    },
+    "T1123": {
+        "Tactic": [
+            "collection"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "API monitoring",
+            "Process monitoring",
+            "File monitoring"
+        ],
+        "name": "Audio Capture",
+        "tech_score": 0.028927320066893806
+    },
+    "T1122": {
+        "Tactic": [
+            "defense-evasion",
+            "persistence"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Windows Registry",
+            "DLL monitoring",
+            "Loaded DLLs"
+        ],
+        "name": "Component Object Model Hijacking",
+        "tech_score": 0.018688171070092893
+    },
+    "T1121": {
+        "Tactic": [
+            "defense-evasion",
+            "execution"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator"
+        ],
+        "Data Sources": [
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Regsvcs/Regasm",
+        "tech_score": 0.05555555555555555
+    },
+    "T1120": {
+        "Tactic": [
+            "discovery"
+        ],
+        "Platform": [
+            "Windows",
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "PowerShell logs",
+            "API monitoring",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Peripheral Device Discovery",
+        "tech_score": 0.13166546024852213
+    },
+    "T1119": {
+        "Tactic": [
+            "collection"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Data loss prevention",
+            "Process command-line parameters"
+        ],
+        "name": "Automated Collection",
+        "tech_score": 0.032360151696681515
+    },
+    "T1118": {
+        "Tactic": [
+            "defense-evasion",
+            "execution"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "InstallUtil",
+        "tech_score": 0.018518518518518517
+    },
+    "T1117": {
+        "Tactic": [
+            "defense-evasion",
+            "execution"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator"
+        ],
+        "Data Sources": [
+            "Loaded DLLs",
+            "Process monitoring",
+            "Windows Registry",
+            "Process command-line parameters"
+        ],
+        "name": "Regsvr32",
+        "tech_score": 0.05805822319567686
+    },
+    "T1116": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Binary file metadata"
+        ],
+        "name": "Code Signing",
+        "tech_score": 0.06638055836359778
+    },
+    "T1115": {
+        "Tactic": [
+            "collection"
+        ],
+        "Platform": [
+            "Linux",
+            "Windows",
+            "macOS"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "API monitoring"
+        ],
+        "name": "Clipboard Data",
+        "tech_score": 0.056671167334356704
+    },
+    "T1114": {
+        "Tactic": [
+            "collection"
+        ],
+        "Platform": [
+            "Windows",
+            "Office 365"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Office 365 trace logs",
+            "Mail server",
+            "Email gateway",
+            "Authentication logs",
+            "File monitoring",
+            "Process monitoring",
+            "Process use of network"
+        ],
+        "name": "Email Collection",
+        "tech_score": 0.02568487630053956
+    },
+    "T1113": {
+        "Tactic": [
+            "collection"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "API monitoring",
+            "Process monitoring",
+            "File monitoring"
+        ],
+        "name": "Screen Capture",
+        "tech_score": 0.052606981208997386
+    },
+    "T1112": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "Windows Registry",
+            "File monitoring",
+            "Process monitoring",
+            "Process command-line parameters",
+            "Windows event logs"
+        ],
+        "name": "Modify Registry",
+        "tech_score": 0.08529772787782727
+    },
+    "T1111": {
+        "Tactic": [
+            "credential-access"
+        ],
+        "Platform": [
+            "Linux",
+            "Windows",
+            "macOS"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "API monitoring",
+            "Process monitoring",
+            "Kernel drivers"
+        ],
+        "name": "Two-Factor Authentication Interception",
+        "tech_score": 0.16666666666666666
+    },
+    "T1110": {
+        "Tactic": [
+            "credential-access"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows",
+            "Office 365",
+            "Azure AD",
+            "SaaS"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Office 365 account logs",
+            "Authentication logs"
+        ],
+        "name": "Brute Force",
+        "tech_score": 0.06032922735157936
+    },
+    "T1109": {
+        "Tactic": [
+            "defense-evasion",
+            "persistence"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "Disk forensics",
+            "API monitoring",
+            "Process monitoring",
+            "Component firmware"
+        ],
+        "name": "Component Firmware",
+        "tech_score": 0.07407407407407407
+    },
+    "T1108": {
+        "Tactic": [
+            "defense-evasion",
+            "persistence"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows",
+            "AWS",
+            "GCP",
+            "Azure",
+            "Office 365",
+            "SaaS",
+            "Azure AD"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "Office 365 account logs",
+            "Azure activity logs",
+            "AWS CloudTrail logs",
+            "Stackdriver logs",
+            "Process monitoring",
+            "Process use of network",
+            "Packet capture",
+            "Network protocol analysis",
+            "File monitoring",
+            "Authentication logs",
+            "Binary file metadata"
+        ],
+        "name": "Redundant Access",
+        "tech_score": 1.1669041802388707
+    },
+    "T1107": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process command-line parameters",
+            "Binary file metadata"
+        ],
+        "name": "File Deletion",
+        "tech_score": 0.11649436207520562
+    },
+    "T1106": {
+        "Tactic": [
+            "execution"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "API monitoring",
+            "Process monitoring"
+        ],
+        "name": "Execution through API",
+        "tech_score": 0.06828742704290272
+    },
+    "T1105": {
+        "Tactic": [
+            "command-and-control",
+            "lateral-movement"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Packet capture",
+            "Process use of network",
+            "Netflow/Enclave netflow",
+            "Network protocol analysis",
+            "Process monitoring"
+        ],
+        "name": "Remote File Copy",
+        "tech_score": 0.261104247007875
+    },
+    "T1104": {
+        "Tactic": [
+            "command-and-control"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Netflow/Enclave netflow",
+            "Network device logs",
+            "Network protocol analysis",
+            "Packet capture",
+            "Process use of network"
+        ],
+        "name": "Multi-Stage Channels",
+        "tech_score": 0.0557591386174448
+    },
+    "T1103": {
+        "Tactic": [
+            "persistence",
+            "privilege-escalation"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator"
+        ],
+        "Data Sources": [
+            "Loaded DLLs",
+            "Process monitoring",
+            "Windows Registry"
+        ],
+        "name": "AppInit DLLs",
+        "tech_score": 0.037037037037037035
+    },
+    "T1102": {
+        "Tactic": [
+            "command-and-control",
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Host network interface",
+            "Netflow/Enclave netflow",
+            "Network protocol analysis",
+            "Packet capture",
+            "SSL/TLS inspection"
+        ],
+        "name": "Web Service",
+        "tech_score": 0.0682970471875897
+    },
+    "T1101": {
+        "Tactic": [
+            "persistence"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator"
+        ],
+        "Data Sources": [
+            "DLL monitoring",
+            "Windows Registry",
+            "Loaded DLLs"
+        ],
+        "name": "Security Support Provider",
+        "tech_score": 0.018518518518518517
+    },
+    "T1100": {
+        "Tactic": [
+            "persistence",
+            "privilege-escalation"
+        ],
+        "Platform": [
+            "Linux",
+            "Windows",
+            "macOS"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Anti-virus",
+            "Authentication logs",
+            "File monitoring",
+            "Netflow/Enclave netflow",
+            "Process monitoring"
+        ],
+        "name": "Web Shell",
+        "tech_score": 0.019740016889854023
+    },
+    "T1099": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Linux",
+            "Windows",
+            "macOS"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Timestomp",
+        "tech_score": 0.19818850075505134
+    },
+    "T1098": {
+        "Tactic": [
+            "credential-access",
+            "persistence"
+        ],
+        "Platform": [
+            "Windows",
+            "Office 365",
+            "Azure",
+            "GCP",
+            "Azure AD",
+            "AWS"
+        ],
+        "Permissions Required": [
+            "Administrator"
+        ],
+        "Data Sources": [
+            "Authentication logs",
+            "API monitoring",
+            "Windows event logs",
+            "Packet capture"
+        ],
+        "name": "Account Manipulation",
+        "tech_score": 0.22321205710933892
+    },
+    "T1097": {
+        "Tactic": [
+            "lateral-movement"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Authentication logs"
+        ],
+        "name": "Pass the Ticket",
+        "tech_score": 0.22379472587267712
+    },
+    "T1096": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "File monitoring",
+            "Kernel drivers",
+            "API monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "NTFS File Attributes",
+        "tech_score": 0.2227850006864103
+    },
+    "T1095": {
+        "Tactic": [
+            "command-and-control"
+        ],
+        "Platform": [
+            "Windows",
+            "Linux",
+            "macOS"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Host network interface",
+            "Netflow/Enclave netflow",
+            "Network intrusion detection system",
+            "Network protocol analysis",
+            "Packet capture",
+            "Process use of network"
+        ],
+        "name": "Standard Non-Application Layer Protocol",
+        "tech_score": 0.22374909518639158
+    },
+    "T1094": {
+        "Tactic": [
+            "command-and-control"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Packet capture",
+            "Netflow/Enclave netflow",
+            "Process use of network",
+            "Process monitoring",
+            "Host network interface",
+            "Network intrusion detection system",
+            "Network protocol analysis"
+        ],
+        "name": "Custom Command and Control Protocol",
+        "tech_score": 0.22741944038838344
+    },
+    "T1093": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Process monitoring",
+            "API monitoring"
+        ],
+        "name": "Process Hollowing",
+        "tech_score": 0.010815967672153788
+    },
+    "T1092": {
+        "Tactic": [
+            "command-and-control"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "File monitoring",
+            "Data loss prevention"
+        ],
+        "name": "Communication Through Removable Media",
+        "tech_score": 0.009327120279889009
+    },
+    "T1091": {
+        "Tactic": [
+            "lateral-movement",
+            "initial-access"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Data loss prevention"
+        ],
+        "name": "Replication Through Removable Media",
+        "tech_score": 0.01919712872481602
+    },
+    "T1090": {
+        "Tactic": [
+            "command-and-control",
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Process use of network",
+            "Process monitoring",
+            "Netflow/Enclave netflow",
+            "Packet capture"
+        ],
+        "name": "Connection Proxy",
+        "tech_score": 0.03675909285675657
+    },
+    "T1089": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "API monitoring",
+            "File monitoring",
+            "Services",
+            "Windows Registry",
+            "Process command-line parameters",
+            "Anti-virus"
+        ],
+        "name": "Disabling Security Tools",
+        "tech_score": 0.02960151020671351
+    },
+    "T1088": {
+        "Tactic": [
+            "defense-evasion",
+            "privilege-escalation"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator"
+        ],
+        "Data Sources": [
+            "System calls",
+            "Process monitoring",
+            "Authentication logs",
+            "Process command-line parameters"
+        ],
+        "name": "Bypass User Account Control",
+        "tech_score": 0.06859891172763238
+    },
+    "T1087": {
+        "Tactic": [
+            "discovery"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows",
+            "Office 365",
+            "Azure AD"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Azure activity logs",
+            "Office 365 account logs",
+            "API monitoring",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Account Discovery",
+        "tech_score": 0.07074732403975356
+    },
+    "T1086": {
+        "Tactic": [
+            "execution"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator"
+        ],
+        "Data Sources": [
+            "PowerShell logs",
+            "Loaded DLLs",
+            "DLL monitoring",
+            "Windows Registry",
+            "File monitoring",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "PowerShell",
+        "tech_score": 0.08784180114068915
+    },
+    "T1085": {
+        "Tactic": [
+            "defense-evasion",
+            "execution"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring",
+            "Process command-line parameters",
+            "Binary file metadata"
+        ],
+        "name": "Rundll32",
+        "tech_score": 0.02782717852076495
+    },
+    "T1084": {
+        "Tactic": [
+            "persistence"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "WMI Objects"
+        ],
+        "name": "Windows Management Instrumentation Event Subscription",
+        "tech_score": 0.05650151478278233
+    },
+    "T1083": {
+        "Tactic": [
+            "discovery"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "File and Directory Discovery",
+        "tech_score": 0.28454398954160265
+    },
+    "T1082": {
+        "Tactic": [
+            "discovery"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows",
+            "AWS",
+            "GCP",
+            "Azure"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Azure activity logs",
+            "Stackdriver logs",
+            "AWS CloudTrail logs",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "System Information Discovery",
+        "tech_score": 0.17143409836883947
+    },
+    "T1081": {
+        "Tactic": [
+            "credential-access"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows",
+            "AWS",
+            "GCP",
+            "Azure"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Credentials in Files",
+        "tech_score": 0.3977874577233641
+    },
+    "T1080": {
+        "Tactic": [
+            "lateral-movement"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring"
+        ],
+        "name": "Taint Shared Content",
+        "tech_score": 0.009361050790203884
+    },
+    "T1079": {
+        "Tactic": [
+            "command-and-control"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Packet capture",
+            "Process use of network",
+            "Malware reverse engineering",
+            "Process monitoring"
+        ],
+        "name": "Multilayer Encryption",
+        "tech_score": 0.009259259259259259
+    },
+    "T1078": {
+        "Tactic": [
+            "defense-evasion",
+            "persistence",
+            "privilege-escalation",
+            "initial-access"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows",
+            "AWS",
+            "GCP",
+            "Azure",
+            "SaaS",
+            "Office 365"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator"
+        ],
+        "Data Sources": [
+            "AWS CloudTrail logs",
+            "Stackdriver logs",
+            "Authentication logs",
+            "Process monitoring"
+        ],
+        "name": "Valid Accounts",
+        "tech_score": 0.8993166707227276
+    },
+    "T1077": {
+        "Tactic": [
+            "lateral-movement"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator"
+        ],
+        "Data Sources": [
+            "Process use of network",
+            "Authentication logs",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Windows Admin Shares",
+        "tech_score": 0.026421402377891763
+    },
+    "T1076": {
+        "Tactic": [
+            "lateral-movement"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Remote Desktop Users",
+            "User"
+        ],
+        "Data Sources": [
+            "Authentication logs",
+            "Netflow/Enclave netflow",
+            "Process monitoring"
+        ],
+        "name": "Remote Desktop Protocol",
+        "tech_score": 0.026663271015596075
+    },
+    "T1075": {
+        "Tactic": [
+            "lateral-movement"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Authentication logs"
+        ],
+        "name": "Pass the Hash",
+        "tech_score": 0.013918854339569266
+    },
+    "T1074": {
+        "Tactic": [
+            "collection"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows",
+            "AWS",
+            "GCP",
+            "Azure"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Data Staged",
+        "tech_score": 0.02717456870551333
+    },
+    "T1073": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Process use of network",
+            "Process monitoring",
+            "Loaded DLLs"
+        ],
+        "name": "DLL Side-Loading",
+        "tech_score": 0.01322912896609965
+    },
+    "T1072": {
+        "Tactic": [
+            "execution",
+            "lateral-movement"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Third-party application logs",
+            "Windows Registry",
+            "Process monitoring",
+            "Process use of network",
+            "Binary file metadata"
+        ],
+        "name": "Third-party Software",
+        "tech_score": 0.3889228193992037
+    },
+    "T1071": {
+        "Tactic": [
+            "command-and-control"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Packet capture",
+            "Netflow/Enclave netflow",
+            "Process use of network",
+            "Malware reverse engineering",
+            "Process monitoring"
+        ],
+        "name": "Standard Application Layer Protocol",
+        "tech_score": 0.5529487563492954
+    },
+    "T1070": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring",
+            "Process command-line parameters",
+            "API monitoring",
+            "Windows event logs"
+        ],
+        "name": "Indicator Removal on Host",
+        "tech_score": 0.3946687758183883
+    },
+    "T1069": {
+        "Tactic": [
+            "discovery"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows",
+            "Office 365",
+            "Azure AD"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Azure activity logs",
+            "Office 365 account logs",
+            "API monitoring",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Permission Groups Discovery",
+        "tech_score": 0.05217563472154621
+    },
+    "T1068": {
+        "Tactic": [
+            "privilege-escalation"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Windows Error Reporting",
+            "Process monitoring",
+            "Application logs"
+        ],
+        "name": "Exploitation for Privilege Escalation",
+        "tech_score": 0.03317389893543999
+    },
+    "T1067": {
+        "Tactic": [
+            "persistence"
+        ],
+        "Platform": [
+            "Linux",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "API monitoring",
+            "MBR",
+            "VBR"
+        ],
+        "name": "Bootkit",
+        "tech_score": 0.11141648570394498
+    },
+    "T1066": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Process use of network",
+            "Process monitoring",
+            "Process command-line parameters",
+            "Anti-virus",
+            "Binary file metadata"
+        ],
+        "name": "Indicator Removal from Tools",
+        "tech_score": 0.1141005060716113
+    },
+    "T1065": {
+        "Tactic": [
+            "command-and-control"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Netflow/Enclave netflow",
+            "Process use of network",
+            "Process monitoring"
+        ],
+        "name": "Uncommonly Used Port",
+        "tech_score": 0.11708288092652913
+    },
+    "T1064": {
+        "Tactic": [
+            "defense-evasion",
+            "execution"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Process monitoring",
+            "File monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Scripting",
+        "tech_score": 0.16193063043668177
+    },
+    "T1063": {
+        "Tactic": [
+            "discovery"
+        ],
+        "Platform": [
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Security Software Discovery",
+        "tech_score": 0.14398340551041888
+    },
+    "T1062": {
+        "Tactic": [
+            "persistence"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "System calls"
+        ],
+        "name": "Hypervisor",
+        "tech_score": 0.05555555555555555
+    },
+    "T1061": {
+        "Tactic": [
+            "execution"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring",
+            "Process command-line parameters",
+            "Binary file metadata"
+        ],
+        "name": "Graphical User Interface",
+        "tech_score": 0.19444444444444442
+    },
+    "T1060": {
+        "Tactic": [
+            "persistence"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator"
+        ],
+        "Data Sources": [
+            "Windows Registry",
+            "File monitoring"
+        ],
+        "name": "Registry Run Keys / Startup Folder",
+        "tech_score": 0.14908520224144167
+    },
+    "T1059": {
+        "Tactic": [
+            "execution"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Command-Line Interface",
+        "tech_score": 0.36573502065471064
+    },
+    "T1058": {
+        "Tactic": [
+            "persistence",
+            "privilege-escalation"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "Process command-line parameters",
+            "Services",
+            "Windows Registry"
+        ],
+        "name": "Service Registry Permissions Weakness",
+        "tech_score": 0.1111111111111111
+    },
+    "T1057": {
+        "Tactic": [
+            "discovery"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Process Discovery",
+        "tech_score": 0.2721061174760068
+    },
+    "T1056": {
+        "Tactic": [
+            "collection",
+            "credential-access"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "Windows Registry",
+            "Kernel drivers",
+            "Process monitoring",
+            "API monitoring"
+        ],
+        "name": "Input Capture",
+        "tech_score": 0.39219867366805194
+    },
+    "T1055": {
+        "Tactic": [
+            "defense-evasion",
+            "privilege-escalation"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator",
+            "SYSTEM",
+            "root"
+        ],
+        "Data Sources": [
+            "API monitoring",
+            "Windows Registry",
+            "File monitoring",
+            "DLL monitoring",
+            "Process monitoring",
+            "Named Pipes"
+        ],
+        "name": "Process Injection",
+        "tech_score": 0.589490745940819
+    },
+    "T1054": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Sensor health and status",
+            "Process command-line parameters",
+            "Process monitoring"
+        ],
+        "name": "Indicator Blocking",
+        "tech_score": 0.5555555555555556
+    },
+    "T1053": {
+        "Tactic": [
+            "execution",
+            "persistence",
+            "privilege-escalation"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "SYSTEM",
+            "User"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring",
+            "Process command-line parameters",
+            "Windows event logs"
+        ],
+        "name": "Scheduled Task",
+        "tech_score": 0.24449779724687057
+    },
+    "T1052": {
+        "Tactic": [
+            "exfiltration"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Data loss prevention",
+            "File monitoring"
+        ],
+        "name": "Exfiltration Over Physical Medium",
+        "tech_score": 0.19444444444444442
+    },
+    "T1051": {
+        "Tactic": [
+            "lateral-movement"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring"
+        ],
+        "name": "Shared Webroot",
+        "tech_score": 0.19444444444444442
+    },
+    "T1050": {
+        "Tactic": [
+            "persistence",
+            "privilege-escalation"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "Windows Registry",
+            "Process monitoring",
+            "Process command-line parameters",
+            "Windows event logs"
+        ],
+        "name": "New Service",
+        "tech_score": 0.12885442797059668
+    },
+    "T1049": {
+        "Tactic": [
+            "discovery"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows",
+            "AWS",
+            "GCP",
+            "Azure"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator"
+        ],
+        "Data Sources": [
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "System Network Connections Discovery",
+        "tech_score": 0.18949722003818936
+    },
+    "T1048": {
+        "Tactic": [
+            "exfiltration"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "User interface",
+            "Process monitoring",
+            "Process use of network",
+            "Packet capture",
+            "Netflow/Enclave netflow",
+            "Network protocol analysis"
+        ],
+        "name": "Exfiltration Over Alternative Protocol",
+        "tech_score": 0.17132450672058108
+    },
+    "T1047": {
+        "Tactic": [
+            "execution"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator"
+        ],
+        "Data Sources": [
+            "Authentication logs",
+            "Netflow/Enclave netflow",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Windows Management Instrumentation",
+        "tech_score": 0.056164744717760555
+    },
+    "T1046": {
+        "Tactic": [
+            "discovery"
+        ],
+        "Platform": [
+            "Linux",
+            "Windows",
+            "macOS",
+            "AWS",
+            "GCP",
+            "Azure"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "SYSTEM",
+            "User"
+        ],
+        "Data Sources": [
+            "Netflow/Enclave netflow",
+            "Network protocol analysis",
+            "Packet capture",
+            "Process command-line parameters",
+            "Process use of network"
+        ],
+        "name": "Network Service Scanning",
+        "tech_score": 0.4021258829732799
+    },
+    "T1045": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Windows",
+            "macOS"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Binary file metadata"
+        ],
+        "name": "Software Packing",
+        "tech_score": 0.3970322113644589
+    },
+    "T1044": {
+        "Tactic": [
+            "persistence",
+            "privilege-escalation"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "User"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Services",
+            "Process command-line parameters"
+        ],
+        "name": "File System Permissions Weakness",
+        "tech_score": 0.05555555555555555
+    },
+    "T1043": {
+        "Tactic": [
+            "command-and-control"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Packet capture",
+            "Netflow/Enclave netflow",
+            "Process use of network",
+            "Process monitoring"
+        ],
+        "name": "Commonly Used Port",
+        "tech_score": 0.10511808597601308
+    },
+    "T1042": {
+        "Tactic": [
+            "persistence"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "Windows Registry",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Change Default File Association",
+        "tech_score": 0.06481481481481481
+    },
+    "T1041": {
+        "Tactic": [
+            "exfiltration"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "User interface",
+            "Process monitoring"
+        ],
+        "name": "Exfiltration Over Command and Control Channel",
+        "tech_score": 0.07311725968358564
+    },
+    "T1040": {
+        "Tactic": [
+            "credential-access",
+            "discovery"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "Network device logs",
+            "Host network interface",
+            "Netflow/Enclave netflow",
+            "Process monitoring"
+        ],
+        "name": "Network Sniffing",
+        "tech_score": 0.3356920888090157
+    },
+    "T1039": {
+        "Tactic": [
+            "collection"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Data from Network Shared Drive",
+        "tech_score": 0.33353691639522254
+    },
+    "T1038": {
+        "Tactic": [
+            "persistence",
+            "privilege-escalation",
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "DLL monitoring",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "DLL Search Order Hijacking",
+        "tech_score": 0.19577358443470988
+    },
+    "T1037": {
+        "Tactic": [
+            "lateral-movement",
+            "persistence"
+        ],
+        "Platform": [
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring"
+        ],
+        "name": "Logon Scripts",
+        "tech_score": 0.19458016648570392
+    },
+    "T1036": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring",
+            "Binary file metadata"
+        ],
+        "name": "Masquerading",
+        "tech_score": 0.22751206678148436
+    },
+    "T1035": {
+        "Tactic": [
+            "execution"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "Windows Registry",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Service Execution",
+        "tech_score": 0.06640161868034496
+    },
+    "T1034": {
+        "Tactic": [
+            "persistence",
+            "privilege-escalation"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring"
+        ],
+        "name": "Path Interception",
+        "tech_score": 0.12962962962962962
+    },
+    "T1033": {
+        "Tactic": [
+            "discovery"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "System Owner/User Discovery",
+        "tech_score": 0.12924014377176232
+    },
+    "T1032": {
+        "Tactic": [
+            "command-and-control"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Packet capture",
+            "Netflow/Enclave netflow",
+            "Malware reverse engineering",
+            "Process use of network",
+            "Process monitoring",
+            "SSL/TLS inspection"
+        ],
+        "name": "Standard Cryptographic Protocol",
+        "tech_score": 0.10989741285708937
+    },
+    "T1031": {
+        "Tactic": [
+            "persistence"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "Windows Registry",
+            "File monitoring",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Modify Existing Service",
+        "tech_score": 0.05794239145356746
+    },
+    "T1030": {
+        "Tactic": [
+            "exfiltration"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Packet capture",
+            "Netflow/Enclave netflow",
+            "Process use of network",
+            "Process monitoring"
+        ],
+        "name": "Data Transfer Size Limits",
+        "tech_score": 0.05569127759681505
+    },
+    "T1029": {
+        "Tactic": [
+            "exfiltration"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Netflow/Enclave netflow",
+            "Process use of network",
+            "Process monitoring"
+        ],
+        "name": "Scheduled Transfer",
+        "tech_score": 0.05555555555555555
+    },
+    "T1028": {
+        "Tactic": [
+            "execution",
+            "lateral-movement"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Authentication logs",
+            "Netflow/Enclave netflow",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Windows Remote Management",
+        "tech_score": 0.05573515325670498
+    },
+    "T1027": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Network protocol analysis",
+            "Process use of network",
+            "File monitoring",
+            "Malware reverse engineering",
+            "Binary file metadata",
+            "Process command-line parameters",
+            "Environment variable",
+            "Process monitoring",
+            "Windows event logs",
+            "Network intrusion detection system",
+            "Email gateway",
+            "SSL/TLS inspection"
+        ],
+        "name": "Obfuscated Files or Information",
+        "tech_score": 0.20478896002595878
+    },
+    "T1026": {
+        "Tactic": [
+            "command-and-control"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Packet capture",
+            "Netflow/Enclave netflow",
+            "Process use of network",
+            "Malware reverse engineering",
+            "Process monitoring"
+        ],
+        "name": "Multiband Communication",
+        "tech_score": 0.055769083767019854
+    },
+    "T1025": {
+        "Tactic": [
+            "collection"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Data from Removable Media",
+        "tech_score": 0.05691277596815056
+    },
+    "T1024": {
+        "Tactic": [
+            "command-and-control"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Packet capture",
+            "Netflow/Enclave netflow",
+            "Process use of network",
+            "Malware reverse engineering",
+            "Process monitoring"
+        ],
+        "name": "Custom Cryptographic Protocol",
+        "tech_score": 0.059321842200506694
+    },
+    "T1023": {
+        "Tactic": [
+            "persistence"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Shortcut Modification",
+        "tech_score": 0.0343719969548342
+    },
+    "T1022": {
+        "Tactic": [
+            "exfiltration"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring",
+            "Process command-line parameters",
+            "Binary file metadata"
+        ],
+        "name": "Data Encrypted",
+        "tech_score": 0.0405695801664857
+    },
+    "T1021": {
+        "Tactic": [
+            "lateral-movement"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Authentication logs"
+        ],
+        "name": "Remote Services",
+        "tech_score": 0.030340116315349382
+    },
+    "T1020": {
+        "Tactic": [
+            "exfiltration"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring",
+            "Process use of network"
+        ],
+        "name": "Automated Exfiltration",
+        "tech_score": 0.027981360839667027
+    },
+    "T1019": {
+        "Tactic": [
+            "persistence"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "API monitoring",
+            "BIOS",
+            "EFI"
+        ],
+        "name": "System Firmware",
+        "tech_score": 0.05555555555555555
+    },
+    "T1018": {
+        "Tactic": [
+            "discovery"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows",
+            "GCP",
+            "Azure",
+            "AWS"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "Network protocol analysis",
+            "Process monitoring",
+            "Process use of network",
+            "Process command-line parameters"
+        ],
+        "name": "Remote System Discovery",
+        "tech_score": 0.40607176731938044
+    },
+    "T1017": {
+        "Tactic": [
+            "lateral-movement"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "File monitoring",
+            "Process use of network",
+            "Process monitoring"
+        ],
+        "name": "Application Deployment Software",
+        "tech_score": 0.38888888888888884
+    },
+    "T1016": {
+        "Tactic": [
+            "discovery"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "System Network Configuration Discovery",
+        "tech_score": 0.11934335492405806
+    },
+    "T1015": {
+        "Tactic": [
+            "persistence",
+            "privilege-escalation"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator"
+        ],
+        "Data Sources": [
+            "Windows Registry",
+            "File monitoring",
+            "Process monitoring"
+        ],
+        "name": "Accessibility Features",
+        "tech_score": 0.03793502554278416
+    },
+    "T1014": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "SYSTEM",
+            "root"
+        ],
+        "Data Sources": [
+            "BIOS",
+            "MBR",
+            "System calls"
+        ],
+        "name": "Rootkit",
+        "tech_score": 0.2513531253510053
+    },
+    "T1013": {
+        "Tactic": [
+            "persistence",
+            "privilege-escalation"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "File monitoring",
+            "API monitoring",
+            "DLL monitoring",
+            "Windows Registry",
+            "Process monitoring"
+        ],
+        "name": "Port Monitors",
+        "tech_score": 0.1111111111111111
+    },
+    "T1012": {
+        "Tactic": [
+            "discovery"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "Windows Registry",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Query Registry",
+        "tech_score": 0.07659221194686767
+    },
+    "T1011": {
+        "Tactic": [
+            "exfiltration"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "User interface",
+            "Process monitoring"
+        ],
+        "name": "Exfiltration Over Other Network Medium",
+        "tech_score": 0.06481481481481481
+    },
+    "T1010": {
+        "Tactic": [
+            "discovery"
+        ],
+        "Platform": [
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User"
+        ],
+        "Data Sources": [
+            "API monitoring",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Application Window Discovery",
+        "tech_score": 0.018891754131982144
+    },
+    "T1009": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Binary file metadata",
+            "File monitoring",
+            "Malware reverse engineering"
+        ],
+        "name": "Binary Padding",
+        "tech_score": 0.0200453914826879
+    },
+    "T1008": {
+        "Tactic": [
+            "command-and-control"
+        ],
+        "Platform": [
+            "Linux",
+            "Windows",
+            "macOS"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Malware reverse engineering",
+            "Netflow/Enclave netflow",
+            "Packet capture",
+            "Process monitoring",
+            "Process use of network"
+        ],
+        "name": "Fallback Channels",
+        "tech_score": 0.020554349137411027
+    },
+    "T1007": {
+        "Tactic": [
+            "discovery"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "User",
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "System Service Discovery",
+        "tech_score": 0.07313714998273574
+    },
+    "T1006": {
+        "Tactic": [
+            "defense-evasion"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator"
+        ],
+        "Data Sources": [
+            "API monitoring"
+        ],
+        "name": "File System Logical Offsets",
+        "tech_score": 0.018518518518518517
+    },
+    "T1005": {
+        "Tactic": [
+            "collection"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows",
+            "GCP",
+            "AWS",
+            "Azure"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "File monitoring",
+            "Process monitoring",
+            "Process command-line parameters"
+        ],
+        "name": "Data from Local System",
+        "tech_score": 0.04793978101430646
+    },
+    "T1004": {
+        "Tactic": [
+            "persistence"
+        ],
+        "Platform": [
+            "Windows"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "SYSTEM"
+        ],
+        "Data Sources": [
+            "Windows Registry",
+            "File monitoring",
+            "Process monitoring"
+        ],
+        "name": "Winlogon Helper DLL",
+        "tech_score": 0.055894860658704304
+    },
+    "T1003": {
+        "Tactic": [
+            "credential-access"
+        ],
+        "Platform": [
+            "Windows",
+            "Linux",
+            "macOS"
+        ],
+        "Permissions Required": [
+            "Administrator",
+            "SYSTEM",
+            "root"
+        ],
+        "Data Sources": [
+            "API monitoring",
+            "Process monitoring",
+            "PowerShell logs",
+            "Process command-line parameters"
+        ],
+        "name": "Credential Dumping",
+        "tech_score": 0.40302426148489273
+    },
+    "T1002": {
+        "Tactic": [
+            "exfiltration"
+        ],
+        "Platform": [
+            "Linux",
+            "Windows",
+            "macOS"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Binary file metadata",
+            "File monitoring",
+            "Process command-line parameters",
+            "Process monitoring"
+        ],
+        "name": "Data Compressed",
+        "tech_score": 0.2782758152682616
+    },
+    "T1001": {
+        "Tactic": [
+            "command-and-control"
+        ],
+        "Platform": [
+            "Linux",
+            "macOS",
+            "Windows"
+        ],
+        "Permissions Required": [],
+        "Data Sources": [
+            "Packet capture",
+            "Process use of network",
+            "Process monitoring",
+            "Network protocol analysis"
+        ],
+        "name": "Data Obfuscation",
+        "tech_score": 0.25128935939196523
+    }
+}
